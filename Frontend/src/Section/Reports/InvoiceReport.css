@@ -1,0 +1,80 @@
+.invoice-report-container {
+  padding: 24px;
+  background: #f9fafb;
+  border-radius: 8px;
+}
+
+.invoice-report-title {
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 600;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-input {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-width: 160px;
+}
+
+.export-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.export-button {
+  padding: 8px 14px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  z-index: 10;
+}
+
+.dropdown-menu div {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.dropdown-menu div:hover {
+  background: #f0f0f0;
+}
+
+.invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.invoice-table th,
+.invoice-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.invoice-table th {
+  background: #007bff;
+  color: white;
+}
+
+.invoice-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
